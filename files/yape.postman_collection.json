@@ -1,0 +1,66 @@
+{
+	"info": {
+		"_postman_id": "4393fbc2-4514-40bf-a795-0e251cca954f",
+		"name": "yape",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "1868512"
+	},
+	"item": [
+		{
+			"name": "localhost:3005/api/transaction",
+			"request": {
+				"method": "PATCH",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"accountExternalIdDebit\": \"111121211\",\r\n    \"accountExternalIdCredit\": \"221212122222\",\r\n    \"tranferTypeId\": 2,\r\n    \"AmountValue\": 11111\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "localhost:3005/api/transaction",
+					"host": [
+						"localhost"
+					],
+					"port": "3005",
+					"path": [
+						"api",
+						"transaction"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "localhost:3005/api/transaction",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"accountExternalIdDebit\": \"111121211\",\r\n    \"accountExternalIdCredit\": \"221212122222\",\r\n    \"tranferTypeId\": 2,\r\n    \"AmountValue\": 11111\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "localhost:3005/api/transaction",
+					"host": [
+						"localhost"
+					],
+					"port": "3005",
+					"path": [
+						"api",
+						"transaction"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
